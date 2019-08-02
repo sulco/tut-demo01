@@ -1,7 +1,9 @@
-Before writing your first React component, import React:
+Now, we can create our first component.
+
+Functional component is a function that returns some jsx.
 
 ```javascript
-import React from 'react';
+const App = () => <h1>Hello world</h1>
 ```
 
-Now we can create our first component...
+Next step is to render it in the browser...
