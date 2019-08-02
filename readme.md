@@ -1,9 +1,11 @@
-Now, we can create our first component.
-
-Functional component is a function that returns some jsx.
+You can render React components in different environments, but in most cases what we'll want to target is a browser. In such case, we will use react-dom library.
 
 ```javascript
-const App = () => <h1>Hello world</h1>
+import ReactDOM from 'react-dom';
+
+// ...
+
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
-Next step is to render it in the browser...
+Nice!
